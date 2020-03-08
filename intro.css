@@ -1,0 +1,109 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-intro {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    height: 500px;
+}
+
+.title-intro p {
+    margin-top: 0;
+}
+
+.title-intro .redefine {
+    color: #4a90e2 !important;
+}
+
+.join-learn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    border: #4a90e2;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.join-learn:hover {
+    background-color: #2275d7;
+    transform: translate3d(0, -2px, 0);
+    -webkit-transform: translate3d(0, -2px, 0);
+}
+
+.register {
+    margin: auto;
+    width: 1140px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.register hr {
+    margin: 30px 0;
+}
+
+.register a {
+    color: #2275d7;
+    font-weight: bold;
+    margin: 0 3px;
+}
+
+.register .free {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    background: #31639c;
+    padding: 6px 13px;
+    border: #31639c;
+    border-radius: 10px;
+}
+
+.why-why {
+    padding: 100px 0;
+}
+
+.why-to-learn {
+    width: 800px;
+    margin: auto;
+}
+
+.why-to-learn h2 {
+    text-align: center;
+}
+
+.lead {
+    font-size: 23px;
+    color: #aaa;
+}
+
+.container-why {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-why .item-why {
+    width: 255px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.container-why .item-why h4 {
+    margin: 30px 0;
+}
+
+.container-why .item-why p {
+    color: #aaa;
+}
+
+.container-why .item-why img {
+    width: 100%;
+}
