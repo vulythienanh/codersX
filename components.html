@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./menu.css">
     <link rel="stylesheet" href="./intro.css">
     <link rel="stylesheet" href="./learn.css">
+    <link rel="stylesheet" href="./animate.css">
 </head>
 
 <body>
@@ -121,6 +122,105 @@
             </div>
         </div>
     </div>
+    <div class="share-by-student">
+        <div class="why-to-learn">
+            <h2>Bạn sẽ được học gì?</h2>
+        </div>
+        <div class="slider">
+            <ul class="slider-items">
+                <li class="mySlides">
+                    <div class="content">
+                        <div class="avataritems">
+                            <img src="https://picsum.photos/200/200" alt="">
+                        </div>
+                        <div class="contentshare">
+                            <p>Học hành như các kho tiêu, kho nhiều thì mặn, học nhiều thì ngu =))</p>
+                            <h4>Triệu Yến Vy</h4>
+                            <h4 class="job">Tào lao ở CodersX</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="mySlides">
+                    <div class="content">
+                        <div class="avataritems">
+                            <img src="https://picsum.photos/200/200" alt="">
+                        </div>
+                        <div class="contentshare">
+                            <p>“Em đã theo cộng đồng CodersX cũng đc 6,7 tháng rồi. Và em hiện đang sắp thực tập ở công ty TMA Solutions chi nhánh ở Quy Nhơn về nội dung: ES6, Express, MongoDB, RESTful API, Backend as a Service (BaaS), Exercise and Assignment,
+                                Deploy... nói chung em cũng nắm hết rồi. Rất tự tin để đầu tháng sau bắt đầu thực tập.”</p>
+                            <h4>Thịnh Phạm</h4>
+                            <h4 class="job">Culi ở CodersX</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="mySlides">
+                    <div class="content">
+                        <div class="avataritems">
+                            <img src="https://picsum.photos/200/200" alt="">
+                        </div>
+                        <div class="contentshare">
+                            <p>“Lập trình quá đơn giản, vì vậy tôi không thèm học...”</p>
+                            <h4>Vũ Lý Thiên Anh</h4>
+                            <h4 class="job">Đến từ sao hỏa</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="mySlides">
+                    <div class="content">
+                        <div class="avataritems">
+                            <img src="https://picsum.photos/200/200" alt="">
+                        </div>
+                        <div class="contentshare">
+                            <p>“Main role của em hiện tại là nhận file từ designer sau đó dựng thành khung web, dùng pug và scss là chủ yếu, sau đó thêm sửa hiệu ứng cũng như là responsive và giúp team lắp giao diện vào dự án.”</p>
+                            <h4>Nguyễn Hải Anh</h4>
+                            <h4 class="job">Lập trình viên thất nghiệp</h4>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="quoest">
+            <blockquote>
+                “Stay hungry, stay foolish.”
+            </blockquote>
+            <h5>Steve Jobs</h5>
+            <span>CEO — Apple Inc.</span>
+        </div>
+        <div class="footer">
+            <div class="social">
+                <a href="http://fb.com/VuLyThienAnh"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCGn_Ist5fBBFXresJR47WRw"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/vlta_98/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="slogan">
+                <span>Make with</span>
+                <i class="fas fa-keyboard"></i> and
+                <i class="fas fa-american-sign-language-interpreting"></i>
+            </div>
+            <div class="copyright">
+                &copy;2020 coder-x.com chôm bởi <a href="http://fb.com/VuLyThienAnh">Nguyễn Hải Anh</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3247196139.js" crossorigin="anonymous"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+    </script>
 </body>
 
 </html>
