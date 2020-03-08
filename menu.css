@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    margin: auto;
+    width: 1140px;
+}
+
+.container {
+    display: flex;
+}
+
+.menu-left img {
+    width: 130px;
+    padding: 25px 20px;
+}
+
+.menu-right {
+    margin-left: auto;
+}
+
+.menu-codersX {
+    display: flex;
+    list-style: none;
+}
+
+.menu-codersX li {
+    padding: 10px 10px;
+}
+
+.menu-codersX li a {
+    text-decoration: none;
+    font-size: 0.857142857142857em;
+    color: #aaa;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.menu-codersX li a:hover {
+    color: #888;
+}
+
+.menu-codersX .free-learn {
+    margin: 0 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    border: #4a90e2;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.menu-codersX .free-learn:hover {
+    background-color: #2275d7;
+    transform: translate3d(0, -2px, 0);
+    -webkit-transform: translate3d(0, -2px, 0);
+}
+
+.menu-codersX .free-learn a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-codersX .free-learn a:hover {
+    color: #fff;
+}
